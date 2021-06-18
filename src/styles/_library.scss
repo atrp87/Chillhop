@@ -5,26 +5,38 @@
 	width: 20rem;
 	height: 100%;
 	background-color: rgba(46, 49, 49, 1);
-	box-shadow: 2px 2px 50px rgb(204, 204, 204);
-	overflow: scroll;
+	box-shadow: 2px 2px 20px rgb(221, 221, 221);
+	overflow-Y: auto;
 	color: #fff;
 
 	h2 {
 		padding: 2rem;
 		color: #fff;
 	}
-	h3 {
-		color: #fff;
+}
+
+.library-song {
+	display: flex;
+	align-items: center;
+	padding: 1rem 2rem 1rem 2rem;
+	cursor: pointer;
+	img {
+		width: 30%;
+	}
+	&:hover {
+		background-color: rgb(64, 64, 64);
 	}
 }
 
-.library-songs {
-	display: flex;
-	align-items: center;
-	flex-direction: column;
-	padding: 1rem 2rem 1rem 2rem;
-	color: #fff;
-	img {
-		width: 20%;
+.song-description {
+	padding-left: 1rem;
+
+	h3 {
+		font-size: 1.1rem;
+		color: #fff;
+	}
+	h4 {
+		font-size: 0.8rem;
+		color: #b0b0b0;
 	}
 }
