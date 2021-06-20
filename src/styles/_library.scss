@@ -8,6 +8,9 @@
 	box-shadow: 2px 2px 20px rgb(221, 221, 221);
 	overflow-Y: auto;
 	color: #fff;
+	transform: translate(-100%);
+	transition: all 0.5s ease;
+	opacity: 0;
 
 	h2 {
 		padding: 2rem;
@@ -20,6 +23,7 @@
 	align-items: center;
 	padding: 1rem 2rem 1rem 2rem;
 	cursor: pointer;
+	transition: all 0.5s ease;
 	img {
 		width: 30%;
 	}
@@ -39,4 +43,12 @@
 		font-size: 0.8rem;
 		color: #b0b0b0;
 	}
+}
+
+.selected {
+	background-color: rgb(32, 32, 32);
+}
+.active-library {
+	transform: translate(0%);
+	opacity: 1;
 }
