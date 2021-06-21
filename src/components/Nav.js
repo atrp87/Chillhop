@@ -1,6 +1,6 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faMusic } from "@fortawesome/free-solid-svg-icons";
+import { faCompactDisc } from "@fortawesome/free-solid-svg-icons";
 
 const Nav = ({ libraryStatus, setLibraryStatus }) => {
   return (
@@ -8,7 +8,7 @@ const Nav = ({ libraryStatus, setLibraryStatus }) => {
       <h1>Chillhop</h1>
       <button onClick={() => setLibraryStatus(!libraryStatus)}>
         Library
-        <FontAwesomeIcon icon={faMusic} />
+        <FontAwesomeIcon icon={faCompactDisc} />
       </button>
     </nav>
   );

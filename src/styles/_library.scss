@@ -13,10 +13,27 @@
 	opacity: 0;
 
 	h2 {
-		padding: 2rem;
+
 		color: #fff;
 	}
+
+	span {
+		padding-right: 2rem;
+		font-size: 1.4em !important;
+		cursor: pointer;
+	}
 }
+
+.library-header {
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+  padding: 2rem 0 2rem 2rem;
+	align-items: center;
+}
+
+
+
 
 .library-song {
 	display: flex;
@@ -51,4 +68,10 @@
 .active-library {
 	transform: translate(0%);
 	opacity: 1;
+}
+
+@media screen and (max-width: 768px) {
+	.library {
+		width: 100%;
+  }
 }

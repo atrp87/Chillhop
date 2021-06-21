@@ -3,10 +3,18 @@ nav {
   display: flex;
   justify-content: space-around;
   align-items: center;
+  padding-top: 0.5rem;
+
+  h1 {
+    font-weight: 700;
+    font-size: 1.5rem;
+  }
 
   button {
     background: transparent;
     border: none;
+    font-weight: 600;
+    font-size: 1.2rem;
     cursor: pointer;
     border: 2px solid rgba(46, 49, 49, 1);
     padding: 0.5rem;
@@ -14,6 +22,9 @@ nav {
     &:hover {
       background: rgba(46, 49, 49, 1);
       color: #fff;
+    }
+    svg {
+      margin-left: 10px;
     }
   }
 }
