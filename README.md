@@ -1,9 +1,9 @@
-# COVID-19 "Angela" Project
+# React msuic player
 [[Live Version]](https://chillhop-phi.vercel.app/)
 
 
 
-![Alt Text](Covid_A.gif)
+![Alt Text](public/audio_player.gif)
 
 ## Built With
 * [Javascript](https://www.javascript.com/)
