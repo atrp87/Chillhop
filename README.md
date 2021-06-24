@@ -1,4 +1,4 @@
-# React msuic player
+# React music player
 [[Live Version]](https://chillhop-phi.vercel.app/)
 
 
