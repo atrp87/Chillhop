@@ -2,8 +2,11 @@
 [[Live Version]](https://chillhop-phi.vercel.app/)
 
 
-
 ![Alt Text](public/audio_player.gif)
+
+* Passing, deconstructing and drilling props
+* Modifying, passing and lifting state
+* Working with hooks such as useRef for capturing input values, usEffect and useState
 
 ## Built With
 * [Javascript](https://www.javascript.com/)
