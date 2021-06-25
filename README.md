@@ -1,6 +1,13 @@
 # React music player
 [[Live Version]](https://chillhop-phi.vercel.app/)
 
+React music player with play / pause, skip forward / back and a drag handler to change the position of the song with a library of songs from chillhop.com
+
+This allowed me to consolidate core concepts and refresh working with hooks before looking into state management ( Redux ).
+
+This was also my fist real experience with Scss, I have a lot of appreciation for CSS as it seems like this never ending language where there is always something knew to learn.
+
+Scss is a great addition as it’s very intuitive nesting and using partials, I will definitely be using it in the future.
 
 ![Alt Text](public/audio_player.gif)
 
