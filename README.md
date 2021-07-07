@@ -1,4 +1,4 @@
-# React music player
+# React music player ( chillhop )
 [[Live Version]](https://chillhop-phi.vercel.app/)
 
 React music player with play / pause, skip forward / back and a drag handler to change the position of the song with a library of songs from chillhop.com
